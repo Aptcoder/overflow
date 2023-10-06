@@ -4,4 +4,4 @@ I made assumptions as to the abstraction of the directed graph and it's nodes. I
 
 Using the big O notation, the time complexity for the identify router function written is O(n) —— linear time complexity, where n is the number of nodes.
 
-The function is of linear time complexity since only one iteration of the nodes of the graph is required for computation. Hence the relationship between the number of nodes and the time for computation is linear.
+The function is of linear time complexity since only one iteration of the nodes of the graph is required for computation and extra iteration of the node labels in the `count` dict to check for the label with maximum connections. Hence the relationship between the number of nodes and the time for computation is linear.
