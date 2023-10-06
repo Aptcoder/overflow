@@ -3,6 +3,17 @@ from typing import Optional, Type
 
 class DirectedGraph:
 
+    # DirectedGraph : {
+    #     nodes: {
+    #         '1': Node(1),
+    #         '2': Node(2),
+    #         '3': Node(3)
+    #     }
+    # }
+
+    # The nodes are stored in a dict instead of a list to improve speed of retrieval.
+
+
     def __init__(self) -> None:
         self.nodes = dict()
         self.start_node = None
@@ -43,7 +54,8 @@ class Node:
 
 
 def read_nodes_into_graph(s: str):
-    # 1 -> 2 -> 3 -> 5 -> 2 -> 1
+
+
     node_labels = s.split(' -> ')
     graph = DirectedGraph()
     if len(node_labels) < 1:
