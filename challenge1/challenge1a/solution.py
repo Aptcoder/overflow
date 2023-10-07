@@ -1,7 +1,4 @@
-# Implement a string compression using python.
-# For example, aaaabbbccddddddee would become a4b3c2d6e2. 
 
-# If the length of the string is not reduced, return the original string.
 
 def compress(s: str):
     char_count = 1

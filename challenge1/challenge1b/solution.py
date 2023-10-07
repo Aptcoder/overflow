@@ -79,9 +79,6 @@ def read_nodes_into_graph(s: str):
     return graph
 
 
-    
-    # return node_labels
-
 def identify_router(graph: Type[DirectedGraph]):
     
     counts = dict()
