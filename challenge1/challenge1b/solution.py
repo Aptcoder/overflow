@@ -12,6 +12,7 @@ class DirectedGraph:
     # }
 
     # The nodes are stored in a dict instead of a list to improve speed of retrieval.
+    # Using the label of the node as the key also allows nodes to be identified and retrieved easily
 
 
     def __init__(self) -> None:
